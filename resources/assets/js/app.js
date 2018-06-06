@@ -5,7 +5,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-const app = angular.module('app',[]);
+export const app = angular.module('app',[]);
 
 app.component('test',{
     template:`<p>{{$ctrl.text}}</p>`,

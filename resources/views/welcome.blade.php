@@ -80,6 +80,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     <test></test>
+                    <test-two></test-two>
                 </div>
 
                 <div class="links">
