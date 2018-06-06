@@ -5,9 +5,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
-
-window.app = app = angular.module('app',[]);
+const app = angular.module('app',[]);
 
 app.component('test',{
     template:`<p>{{$ctrl.text}}</p>`,
